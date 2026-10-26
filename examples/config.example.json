@@ -1,0 +1,84 @@
+{
+  "model": {
+    "vocab_size": 8192,
+    "d_model": 192,
+    "n_layer": 7,
+    "n_head": 3,
+    "head_dim": 64,
+    "expand_v": 1.0,
+    "n_v_heads": 0,
+    "mlp_ratio": 2.0,
+    "intermediate_size": 0,
+    "seq_len": 256,
+    "chunk_size": 16,
+    "decay_block": 16,
+    "use_short_conv": true,
+    "conv_size": 4,
+    "hybrid_every": 0,
+    "swa_window": 128,
+    "allow_neg_eigval": false,
+    "tie_embeddings": true,
+    "dropout": 0.0,
+    "norm_eps": 1e-05,
+    "max_log_decay": 8.0
+  },
+  "data": {
+    "base_source": {
+      "kind": "demo"
+    },
+    "sft_source": {
+      "kind": "demo"
+    },
+    "tokenizer": {
+      "kind": "scratch",
+      "vocab_size": 8192
+    },
+    "text_field": "text",
+    "val_fraction": 0.02,
+    "max_base_tokens": 5000000,
+    "sft_template": "chatml",
+    "sft_max_seq_len": 0,
+    "pack_base": true,
+    "seed": 42,
+    "out_dir": "data"
+  },
+  "train": {
+    "precision": "fp16",
+    "int8_mode": "int8",
+    "int8_gemm": true,
+    "quantize_embeddings": false,
+    "quantize_lm_head": false,
+    "optimizer": "adamw8bit",
+    "micro_batch_size": 0,
+    "grad_accum": 4,
+    "base_steps": 300,
+    "base_lr": 0.003,
+    "sft_epochs": 3,
+    "sft_lr": 0.001,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.1,
+    "grad_clip": 1.0,
+    "scheduler": "cosine",
+    "min_lr_ratio": 0.1,
+    "eval_every": 50,
+    "log_every": 10,
+    "save_every": 0,
+    "sample_every": 0,
+    "seed": 42,
+    "resume": false,
+    "device": "auto",
+    "use_all_tpu_cores": false,
+    "wandb": false,
+    "out_dir": "checkpoints"
+  },
+  "export": {
+    "gguf_quant": "Q8_0",
+    "litert_profile": "qualcomm_qnn_htp",
+    "litert_quant": "auto",
+    "prefill_len": 0,
+    "export_prefill": false,
+    "out_dir": "exports"
+  },
+  "run_name": "gdn2-5m",
+  "workdir": "/tmp/work"
+}

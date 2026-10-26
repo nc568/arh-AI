@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv2/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Generated training / export artifacts (never commit weights)
+data/
+checkpoints/
+exports/
+wandb/
+runs/
+*.safetensors
+*.gguf
+*.tflite
+*.bin
+*.npz
+!examples/*.txt
+!examples/*.jsonl
+
+# local scratch
+*.log
+.DS_Store

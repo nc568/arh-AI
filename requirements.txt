@@ -1,0 +1,8 @@
+# Минимальный набор для обучения в Colab (torch уже предустановлен).
+#   pip install -r requirements.txt
+numpy>=1.24
+tokenizers>=0.15
+safetensors>=0.4
+gguf>=0.13
+tqdm>=4.66
+ipywidgets>=8.0

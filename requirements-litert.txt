@@ -1,0 +1,9 @@
+# Экспорт в LiteRT / квантование под NPU. Тяжёлый набор: ставьте отдельно.
+#   pip install -r requirements-litert.txt
+# Проверено: litert-torch 0.10.0 + ai-edge-quantizer 0.10.* + torch 2.14
+litert-torch>=0.10,<0.11
+ai-edge-litert>=2.3,<2.4
+ai-edge-quantizer>=0.10,<0.11
+
+# Для запуска .tflite с delegate конкретного вендора (опционально):
+# pip install "ai-edge-litert[npu-sdk]"        # Qualcomm / MediaTek SDK

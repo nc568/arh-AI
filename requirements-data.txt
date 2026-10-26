@@ -1,0 +1,4 @@
+# Дополнительные источники данных (ставьте только если нужны).
+datasets>=2.14          # HuggingFace streaming datasets
+pyarrow>=14             # .parquet
+bitsandbytes>=0.43      # AdamW8bit — 8-битные состояния оптимизатора

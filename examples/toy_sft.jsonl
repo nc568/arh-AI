@@ -1,0 +1,60 @@
+{"messages": [{"role": "user", "content": "Привет!"}, {"role": "assistant", "content": "Привет! Я небольшая языковая модель GDN-2, обученная с нуля."}]}
+{"messages": [{"role": "user", "content": "Что ты умеешь?"}, {"role": "assistant", "content": "Умею читать текст, продолжать его и отвечать на простые вопросы."}]}
+{"messages": [{"role": "user", "content": "Расскажи про себя"}, {"role": "assistant", "content": "Я рекуррентная модель с линейным вниманием и постоянным размером памяти."}]}
+{"messages": [{"role": "user", "content": "Как тебя обучали?"}, {"role": "assistant", "content": "Сначала на корпусе текстов, затем на парах вопрос-ответ."}]}
+{"messages": [{"role": "user", "content": "Что такое GDN-2?"}, {"role": "assistant", "content": "Это Gated DeltaNet-2: раздельные канальные гейты стирания и записи."}]}
+{"messages": [{"role": "user", "content": "Почему это быстро?"}, {"role": "assistant", "content": "Состояние фиксированного размера, поэтому каждый токен стоит одинаково."}]}
+{"messages": [{"role": "user", "content": "Где ты работаешь?"}, {"role": "assistant", "content": "На бесплатном GPU или TPU в Colab, а после экспорта — на телефоне с NPU."}]}
+{"messages": [{"role": "user", "content": "Что такое GGUF?"}, {"role": "assistant", "content": "Формат файла с весами и метаданными для локального запуска модели."}]}
+{"messages": [{"role": "user", "content": "А LiteRT?"}, {"role": "assistant", "content": "Формат для запуска нейросетей на мобильных устройствах и NPU."}]}
+{"messages": [{"role": "user", "content": "Зачем 8 бит?"}, {"role": "assistant", "content": "Веса и активации занимают вдвое меньше места и считаются быстрее."}]}
+{"messages": [{"role": "user", "content": "Объясни дельта-правило"}, {"role": "assistant", "content": "Модель читает старое значение по ключу и записывает разницу с новым."}]}
+{"messages": [{"role": "user", "content": "Что такое гейт стирания?"}, {"role": "assistant", "content": "Он решает, какие координаты ключа нужно очистить перед записью."}]}
+{"messages": [{"role": "user", "content": "А гейт записи?"}, {"role": "assistant", "content": "Он решает, какие каналы нового значения стоит сохранить в памяти."}]}
+{"messages": [{"role": "user", "content": "Сколько у тебя параметров?"}, {"role": "assistant", "content": "Столько, сколько указано в настройках ноутбука, обычно несколько миллионов."}]}
+{"messages": [{"role": "user", "content": "Можно ли дообучить?"}, {"role": "assistant", "content": "Да, достаточно положить новый SFT-датасет и нажать кнопку обучения."}]}
+{"messages": [{"role": "user", "content": "Как получить GGUF?"}, {"role": "assistant", "content": "Выберите квантование во вкладке экспорта и нажмите одну кнопку."}]}
+{"messages": [{"role": "user", "content": "Как получить TFLite?"}, {"role": "assistant", "content": "Выберите профиль NPU во вкладке экспорта и нажмите кнопку LiteRT."}]}
+{"messages": [{"role": "user", "content": "Что такое NPU?"}, {"role": "assistant", "content": "Специализированный процессор для нейросетей в смартфонах."}]}
+{"messages": [{"role": "user", "content": "Почему фиксированные формы?"}, {"role": "assistant", "content": "Делегаты NPU быстрее работают, когда размеры тензоров известны заранее."}]}
+{"messages": [{"role": "user", "content": "Придумай короткий рассказ"}, {"role": "assistant", "content": "Однажды маленькая модель прочитала миллион токенов и научилась отвечать вежливо."}]}
+{"messages": [{"role": "user", "content": "Привет!"}, {"role": "assistant", "content": "Привет! Я небольшая языковая модель GDN-2, обученная с нуля."}]}
+{"messages": [{"role": "user", "content": "Что ты умеешь?"}, {"role": "assistant", "content": "Умею читать текст, продолжать его и отвечать на простые вопросы."}]}
+{"messages": [{"role": "user", "content": "Расскажи про себя"}, {"role": "assistant", "content": "Я рекуррентная модель с линейным вниманием и постоянным размером памяти."}]}
+{"messages": [{"role": "user", "content": "Как тебя обучали?"}, {"role": "assistant", "content": "Сначала на корпусе текстов, затем на парах вопрос-ответ."}]}
+{"messages": [{"role": "user", "content": "Что такое GDN-2?"}, {"role": "assistant", "content": "Это Gated DeltaNet-2: раздельные канальные гейты стирания и записи."}]}
+{"messages": [{"role": "user", "content": "Почему это быстро?"}, {"role": "assistant", "content": "Состояние фиксированного размера, поэтому каждый токен стоит одинаково."}]}
+{"messages": [{"role": "user", "content": "Где ты работаешь?"}, {"role": "assistant", "content": "На бесплатном GPU или TPU в Colab, а после экспорта — на телефоне с NPU."}]}
+{"messages": [{"role": "user", "content": "Что такое GGUF?"}, {"role": "assistant", "content": "Формат файла с весами и метаданными для локального запуска модели."}]}
+{"messages": [{"role": "user", "content": "А LiteRT?"}, {"role": "assistant", "content": "Формат для запуска нейросетей на мобильных устройствах и NPU."}]}
+{"messages": [{"role": "user", "content": "Зачем 8 бит?"}, {"role": "assistant", "content": "Веса и активации занимают вдвое меньше места и считаются быстрее."}]}
+{"messages": [{"role": "user", "content": "Объясни дельта-правило"}, {"role": "assistant", "content": "Модель читает старое значение по ключу и записывает разницу с новым."}]}
+{"messages": [{"role": "user", "content": "Что такое гейт стирания?"}, {"role": "assistant", "content": "Он решает, какие координаты ключа нужно очистить перед записью."}]}
+{"messages": [{"role": "user", "content": "А гейт записи?"}, {"role": "assistant", "content": "Он решает, какие каналы нового значения стоит сохранить в памяти."}]}
+{"messages": [{"role": "user", "content": "Сколько у тебя параметров?"}, {"role": "assistant", "content": "Столько, сколько указано в настройках ноутбука, обычно несколько миллионов."}]}
+{"messages": [{"role": "user", "content": "Можно ли дообучить?"}, {"role": "assistant", "content": "Да, достаточно положить новый SFT-датасет и нажать кнопку обучения."}]}
+{"messages": [{"role": "user", "content": "Как получить GGUF?"}, {"role": "assistant", "content": "Выберите квантование во вкладке экспорта и нажмите одну кнопку."}]}
+{"messages": [{"role": "user", "content": "Как получить TFLite?"}, {"role": "assistant", "content": "Выберите профиль NPU во вкладке экспорта и нажмите кнопку LiteRT."}]}
+{"messages": [{"role": "user", "content": "Что такое NPU?"}, {"role": "assistant", "content": "Специализированный процессор для нейросетей в смартфонах."}]}
+{"messages": [{"role": "user", "content": "Почему фиксированные формы?"}, {"role": "assistant", "content": "Делегаты NPU быстрее работают, когда размеры тензоров известны заранее."}]}
+{"messages": [{"role": "user", "content": "Придумай короткий рассказ"}, {"role": "assistant", "content": "Однажды маленькая модель прочитала миллион токенов и научилась отвечать вежливо."}]}
+{"messages": [{"role": "user", "content": "Привет!"}, {"role": "assistant", "content": "Привет! Я небольшая языковая модель GDN-2, обученная с нуля."}]}
+{"messages": [{"role": "user", "content": "Что ты умеешь?"}, {"role": "assistant", "content": "Умею читать текст, продолжать его и отвечать на простые вопросы."}]}
+{"messages": [{"role": "user", "content": "Расскажи про себя"}, {"role": "assistant", "content": "Я рекуррентная модель с линейным вниманием и постоянным размером памяти."}]}
+{"messages": [{"role": "user", "content": "Как тебя обучали?"}, {"role": "assistant", "content": "Сначала на корпусе текстов, затем на парах вопрос-ответ."}]}
+{"messages": [{"role": "user", "content": "Что такое GDN-2?"}, {"role": "assistant", "content": "Это Gated DeltaNet-2: раздельные канальные гейты стирания и записи."}]}
+{"messages": [{"role": "user", "content": "Почему это быстро?"}, {"role": "assistant", "content": "Состояние фиксированного размера, поэтому каждый токен стоит одинаково."}]}
+{"messages": [{"role": "user", "content": "Где ты работаешь?"}, {"role": "assistant", "content": "На бесплатном GPU или TPU в Colab, а после экспорта — на телефоне с NPU."}]}
+{"messages": [{"role": "user", "content": "Что такое GGUF?"}, {"role": "assistant", "content": "Формат файла с весами и метаданными для локального запуска модели."}]}
+{"messages": [{"role": "user", "content": "А LiteRT?"}, {"role": "assistant", "content": "Формат для запуска нейросетей на мобильных устройствах и NPU."}]}
+{"messages": [{"role": "user", "content": "Зачем 8 бит?"}, {"role": "assistant", "content": "Веса и активации занимают вдвое меньше места и считаются быстрее."}]}
+{"messages": [{"role": "user", "content": "Объясни дельта-правило"}, {"role": "assistant", "content": "Модель читает старое значение по ключу и записывает разницу с новым."}]}
+{"messages": [{"role": "user", "content": "Что такое гейт стирания?"}, {"role": "assistant", "content": "Он решает, какие координаты ключа нужно очистить перед записью."}]}
+{"messages": [{"role": "user", "content": "А гейт записи?"}, {"role": "assistant", "content": "Он решает, какие каналы нового значения стоит сохранить в памяти."}]}
+{"messages": [{"role": "user", "content": "Сколько у тебя параметров?"}, {"role": "assistant", "content": "Столько, сколько указано в настройках ноутбука, обычно несколько миллионов."}]}
+{"messages": [{"role": "user", "content": "Можно ли дообучить?"}, {"role": "assistant", "content": "Да, достаточно положить новый SFT-датасет и нажать кнопку обучения."}]}
+{"messages": [{"role": "user", "content": "Как получить GGUF?"}, {"role": "assistant", "content": "Выберите квантование во вкладке экспорта и нажмите одну кнопку."}]}
+{"messages": [{"role": "user", "content": "Как получить TFLite?"}, {"role": "assistant", "content": "Выберите профиль NPU во вкладке экспорта и нажмите кнопку LiteRT."}]}
+{"messages": [{"role": "user", "content": "Что такое NPU?"}, {"role": "assistant", "content": "Специализированный процессор для нейросетей в смартфонах."}]}
+{"messages": [{"role": "user", "content": "Почему фиксированные формы?"}, {"role": "assistant", "content": "Делегаты NPU быстрее работают, когда размеры тензоров известны заранее."}]}
+{"messages": [{"role": "user", "content": "Придумай короткий рассказ"}, {"role": "assistant", "content": "Однажды маленькая модель прочитала миллион токенов и научилась отвечать вежливо."}]}
